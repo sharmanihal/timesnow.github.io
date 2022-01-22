@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+
+body{
+    background: white;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.nav-items-2{
+    background: #46ccde;
+    width: 50%
+}
+.nav-items-1{
+    width: 50%
+}
+.features,.pricing{
+    color: rgb(133, 130, 130);
+}
+
+@media screen and (min-width:920px) {
+    .navigation{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .hamburger{
+        display: none;
+    }
+    .nav-item-1{
+        display: flex;
+  
+    }
+    .features,.logo,.pricing{
+        margin-top: 40px;
+        margin-right: 25px
+    }
+    .start{
+        display: inline-block;
+        margin-left: 300px;
+        margin-top: 30px;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+    .mock{
+        width: 90%;
+        margin-left: 40px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .audience{
+        margin-top: 60px;
+        margin-right: 60px;
+        font-size: 50px;
+        color: #1d1b67;
+    }
+    .audience-post{
+        color: rgb(156, 154, 154);
+        margin-top: 10px;
+        margin-right: 60px;
+    }
+    .start-scheduling{
+        display: inline-block;
+      
+        margin-top: 10px;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+    .shield-parent{
+        margin-top: 10px;
+    }
+    .shield{
+        position: relative;
+        top: 6px;
+    }
+    .people,.ad{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .ad p{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        font-size: 15px;
+        color: rgb(141, 141, 141);
+    }
+    .people{
+        font-size: large;
+        color: #1d1b67;
+    }
+    .flex-box-two{
+        display: flex;
+    }
+    .image{
+        width: 8.5%;
+        margin-top: 15px;
+    }
+    .dashboard{
+        display: flex;
+        margin-top: 60px;
+        width:-2000px;
+        background: #cdf9ff;
+    }
+    .custom p{
+        margin-bottom: 10px;
+        color: rgb(61, 61, 173);
+    }
+    .real-time,.custom{
+        width: 50%;
+        padding: 5%;
+    }
+    
+    .lists{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        line-height: 25px;
+        color: rgb(96, 96, 100);
+    }
+    .email{
+        border: 2px solid rgb(189, 189, 189);
+        padding: 15px;
+        width: 100%;
+        border-radius: 4px
+    }
+    .email-button{
+        position: relative;
+        left:205px;
+        top: -37px;
+        background: #1d1b67;
+        padding: 10px;
+        border-radius: 5px;
+        color: white
+    }
+    .view-demo{
+        margin-left: 40px;
+    }
+  .start-scheduling1{
+        display: inline-block;
+      
+        margin-top: 10px;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+}
+@media screen and (min-width:200px) and (max-width:580px) {
+    .navigation{
+        
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .pricing,.features{
+        display: none;
+    }
+    .hamburger{
+        width:7%;
+    }
+    .logo{
+        width: 8%
+    }
+    .mock{
+        width: 80%;
+        padding: 10%;
+    }
+    .nav-item-1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .nav-items-1{
+        width: 100%;
+    }
+    .nav-items-2{
+        width: 100%
+    }
+      .audience{
+        margin-top: 60px;
+        margin-right: 60px;
+        font-size: 50px;
+        color: #1d1b67;
+    }
+     .audience-post{
+        color: rgb(156, 154, 154);
+        margin-top: 20px;
+        margin-right: 60px;
+         font-size: 120%
+    }
+    .two-buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px
+    }
+     .start-scheduling{
+        display: inline-block;
+      
+       
+        background: #1d1b67;
+        padding: 20px;
+        color: white;
+        border-radius: 4px;
+    }
+    .view-demo{
+        margin-top: 20px;
+        margin-right:6%;
+        font-weight: bold;
+        font-size: 120%;
+    }
+    .shield-parent{
+        display: flex;
+        margin-top: 50px;
+        color: #1d1b67;
+        margin-bottom: 40px;
+    }
+    
+    .shield-text{
+        font-size: 150%;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    .start{
+        display: none;
+    }
+      .people{
+        font-size: 200%;
+        color: #1d1b67;
+    }
+    .people h1{
+        margin-bottom: 40px;
+    }
+    .flex-box-two{
+        margin-top: 30px;
+    }
+    .image{
+        width:15%
+    }
+     .ad p{
+        margin-top: 30px;
+         line-height: 30px;
+        font-size: large;
+        color: rgb(141, 141, 141);
+    }
+    .dashboard{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        width:-2000px;
+        background: #cdf9ff;
+    }
+    .custom p{
+        margin-bottom: 10px;
+        color: rgb(61, 61, 173);
+    }
+    .real-time,.custom{
+        width: 50%;
+        padding: 5%;
+    }
+    .custom{
+        width: 90%
+    }
+    .heading{
+        font-weight: bold;
+        font-size: large;
+    }
+     .start-scheduling1{
+        display: inline-block;
+        margin-top: 10px;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+    .lists{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .list1{
+        flex: 2 0 200px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .list2{
+        flex: 2 0 50px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .list3{
+        flex: 3 0 400px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .list4{
+        width: 100%;
+    }
+      .email{
+        border: 2px solid rgb(189, 189, 189);
+        padding: 15px;
+        width: 90%;
+        border-radius: 4px;
+          margin-bottom: 18px;
+    }
+    .email-button{
+       
+        background: #1d1b67;
+        padding: 10px;
+        
+        border-radius: 5px;
+        color: white
+    }
+}
+
+@media screen and (max-width:920px) and (min-width:579px)  {
+    .navigation{
+        display: flex;
+        justify-content : center;
+        
+    }
+    .hamburger{
+        display: none;
+    }
+    .mock{
+        width:80%;
+        padding-right: 10%;
+        padding-bottom : 10%;
+        padding-left:  10%
+    }
+    .start{
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 48%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        font-size: 80%;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+    .features,.logo,.pricing{
+        margin-top: 20px;
+        margin-right: 25px;
+        
+    }
+     .audience{
+        margin-top: 60px;
+        margin-right: 60px;
+        font-size:200% ;
+        color: #1d1b67;
+    }
+    .audience-post{
+        color: rgb(156, 154, 154);
+        margin-top: 10px;
+        margin-right: 60px;
+    }
+    .start-scheduling{
+        display: inline-block;
+        width: 120px;
+        margin-top: 40px;
+        background: #1d1b67;
+        margin-left: 20%;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+    .two-buttons{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .view-demo{
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    .shield-parent{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .shield{
+        position: relative;
+        top: 5px;
+    }
+    .people,.ad{
+        width: 50%;
+        margin-top: 40px;
+    }
+    .ad p{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 40px;
+        font-size: 15px;
+        color: rgb(141, 141, 141);
+    }
+    .people{
+        font-size: large;
+        color: #1d1b67;
+    }
+    .flex-box-two{
+        display: flex;
+    }
+    .image{
+        width: 8.5%;
+        margin-top: 15px;
+    }
+    .dashboard{
+        display: flex;
+        margin-top: 60px;
+        width:-2000px;
+        background: #cdf9ff;
+    }
+    .custom p{
+        margin-bottom: 10px;
+        color: rgb(61, 61, 173);
+    }
+    .real-time,.custom{
+        width: 50%;
+        padding: 5%;
+    }
+    
+    .lists{
+        display: flex;
+        width: 110%;
+        justify-content: space-around;
+        padding: 10px;
+        line-height: 25px;
+        color: rgb(96, 96, 100);
+    }
+     .start-scheduling1{
+        display: inline-block;
+      
+        margin-top: 10px;
+        background: #1d1b67;
+        padding: 10px;
+        color: white;
+        border-radius: 4px;
+    }
+        .email-button{
+        
+        background: #1d1b67;
+        padding: 9px;
+        border-radius: 5px;
+        color: white
+    }
+    .email{
+       
+        border: 2px solid rgb(189, 189, 189);
+        padding: 15px;
+        width:30%;
+        border-radius: 4px
+    }
+    .email-list{
+        margin-left: 30px;
+    }
+    .view-demo{
+        margin-left: 28%;
+    }
+}
